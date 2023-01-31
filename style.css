@@ -1,0 +1,87 @@
+:root {
+    /*color pallete*/
+    --blue: #003049;
+    --red: #D62828;
+    --orange: #F77F00;
+    --yellow: #FCBF49;
+    --white: #EAE2B7;
+}
+
+/* Class to make things unselectable */
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+body{
+    background-color: var(--blue);
+
+    position: fixed;
+
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    min-height: 450px;
+}
+
+#inputWin {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 250%;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px black;
+    color: #003049;
+
+
+    background-color: #EAE2B7;
+    border: 3px solid #F77F00;
+    border-width: 0.25vw;
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    width: 50%;
+    height: 40vh;
+
+    translate: -50% -50%;
+
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+#inputWinContent {
+    position: relative;
+    left: 0%;
+    top: 10%;
+    height: 10%;
+
+}
+
+input{
+    border: .3vh solid #F77F00;
+    width: 70%;
+    height: 5vh;
+    text-align: left;
+    font-size: 1.7vh;
+
+
+}
+
+button{
+    width: 10vh;
+    height: 6vh;
+    font-weight: bolder;
+    font-size: large;
+    color: #003049;
+    border-color: #F77F00;
+    background-color: #FCBF49;
+}
